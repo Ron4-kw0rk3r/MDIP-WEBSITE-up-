@@ -1,0 +1,158 @@
+*{
+
+    margin: 0 ;
+    padding: 0;
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+    /*reconfigure settings code optimize*/
+    
+    box-sizing: border-box;
+}
+
+
+
+
+body{
+    /*background: #202024;*/
+    margin: 0px;
+    padding: 0px;
+    font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
+}
+
+
+
+
+ul{
+
+    list-style: none;
+
+}
+
+a{
+
+
+    text-decoration: none;
+}
+
+.main {
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    margin: auto;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #2e4853;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+.menu{
+
+    display: flex;
+    float: right;
+}
+
+.menu {
+
+    margin: 5px;
+    padding: 5px 20px;
+    color: #ffffff;
+    font-weight: 500;
+    
+    transition: all ease 0.6s;
+
+}
+
+.menu .on {
+
+
+    color: rgba(255, 204, 0);
+
+}
+
+.menu li a{
+
+    /*background-color: #0d1921 ;*/
+    margin: 5px;
+    padding: 5px 20px;
+    color: #f1f1f1;
+    font-weight: 500;
+    border: #00ff8c;
+    
+}
+
+.menu li a:hover{
+
+
+    color: #fcd600;
+    transition: all ease 0.3s;
+}
+.logoo{
+
+    font-size: 2.1rem;
+    color: #00ff8c;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+
+}
+
+
+.empress{
+    
+    display:flex
+}
+
+span{
+
+    color: #f1f1f1;
+}
+
+.elements-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.elements-right a {
+
+    margin: 0px 10px;
+
+}
+.elements-right a:hover {
+    color: #cf2728;
+    transition: all ease 0.2s;
+
+}
+
+
+/* .main{ */
+/*    width: 100%; */ 
+/*    background-color: #202024; */
+/*    /*linear-gradient(to top , rgba(0, 0, 0, 0)50% , rgba(0, 0, 0, 0.6)50% );*/
+/*    background-position: center ; */ 
+/*    background-size: cover; */ 
+/*    height: 108vh; */ 
+
+#maint{
+
+    background-color: #f1f1f1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+maint-contend
+
