@@ -7,10 +7,17 @@
     <title>MDIP Website</title>
     
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/buttons.css')}}">
     <!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/img-cfg.css')}}">
     <!--<link rel="stylesheet"   href='static/css/style.css'>-->
     <!-- fonts============================= -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/content.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet"> 
     <!-- icon siteweb-->
     <link rel="shortcut icon" href="/img/fav-icon.png">
 
@@ -20,13 +27,13 @@
 <body>
     <!-- create top var-->
     <nav class="main">
-        <a href="#"  class="logoo">MDIP<span>Web</span></a>
+        <a href="#"  class="logoo">MDIP<span class="web1">Web</span></a>
         <ul class="menu">
-            <li><a href="#" class="on">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="#">shop</a></li>
-            <li><a href="#">about</a></li>
+            <li><a href="#" class="one" style="--btr:#00ff8c">Home</a></li>
+            <li><a href="#" class="twu" style="--btr:#00ff8c">Services</a></li>
+            <li><a href="#" class="try" style="--btr:#00ff8c">contact</a></li>
+            <li><a href="#" class="four" style="--btr:#00ff8c">shop</a></li>
+            <li><a href="#" class="five" style="--btr:#00ff8c">about</a></li>
         </ul>
 
         <div class="elements-right">
@@ -44,41 +51,94 @@
     <!-- nav contend-->
     <!-- contend-->
 
-
-    <div class="uname">        
-        <p class="content">
-            <p class="othertrace" style="padding-top:110px ;"> Bienvenido <span>A</span> </p>
-            <h1 class="reference"> Mercado <span>Digital</span> Inovador Profesional</h1>
+    
+    <div class="uname">
+        
+        <div class="presentation">
+            <p class="content"></p>
+            <p class="othertrace"> Bienvenido a: </p>
+            <h1 class="reference"> <span>Mercado Digital</span> Inovador Profesional</h1>
             <br>
-            <p class="content"> Este sitio le permite publicar <br> buscar , alojar y obtener <br> referencias directas en su uso personas <br> un sitio especial en  una variedad de vistas y demas <br>
-                <button class="upclient"> <a href="#"> UNIRSE </a> </button> <br>
-            </p>
-            <img class="empress" src="/static/img/desing1-back.jpg" style="width:300px; height: 300px;">    
-        </p>
+            <p class="content"> Este sitio le permite publicar: buscar , publicar , vender y mucho mas <br> un sitio abierto y libre seguro  en comunidad <br> especial y creativo en general   ,una variedad en contenido  y  secciones que ofrece  en contenido <br>  desarrollado para un mejor eficiencia con facilidad de uso </p>
+            
+        </div>
+        
+
+        <div class="creator-img">
+            <img src="/static/img/desing1-back.jpg" style="height:300px ; width: 300px;" alt="Mdip-web" >
+        </div>
+        
+
+
     </div>
 
+    <div class="bootlog">
+        <button class="upclient" style="--clr:#00ff8c"><a href="/app/templates/about.html"> <span class="trop">EMPEZAR</span><i></i></a> </button>
+    </div>
+    <!-- content middle-->
+    <br>
 
-    <!-- section main contend-->>
+    <section id="content-async">
+
+        <div class="wien-articuls">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque omnis delectus eos expedita velit est non. Voluptate dignissimos magnam amet officia accusamus, veritatis voluptatem molestias! Id deleniti error reprehenderit itaque?</p>   
+            <br>
+            <button><a><span class="b11">CONTENIDO</span></a></button>
+        </div>
+
+
+        <div class="wien-public">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae voluptatibus nemo veniam pariatur dolores. Unde iste officia assumenda repellat qui nostrum laudantium ipsam quidem voluptates corrupti, obcaecati laboriosam facilis eaque.</p>
+            <br>
+            <button><a><span class="b11">PUBLICAR</span></a></button>
+        </div>
+
+
+        <div class="get-starter">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates nisi obcaecati rem dolorum quas error aperiam repellat. Dolorem autem adipisci minima vel sequi id quam, placeat explicabo debitis excepturi!</p>
+            <br>
+            <button><a><span class="b11">EMPIEZA YA</span></a></button>
+        </div>
+    </section>
+
+
+    
+
+    <!-- section main contend-->
     <section id="maint">
         <!-- contenido web site-->
         <div class="maint-cont">
             <!--text contend-->
             <div class="maint-text">
-
                 <span> Collection </span>
                 <h1> Contend confortable document </h1>
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nesciunt quisquam corrupti ad facilis officia iste, error molestias assumenda tempore modi veniam quis quasi quaerat fugit ipsa dicta cum similique.</p>
-                <a href="#">Shop in market </a>
+                <a href="#">Shop in market</a>
             </div>
             <!-- maint img==============-->
             <div class="maint-img">
                 <img src="/static/img/main.png" alt="T-shirts">
             </div>
         </div>            
+    </section>
+
+
+    <section id="downform">
+        <div class="makesite">
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque tempore ipsa placeat molestias culpa eveniet perferendis aliquid esse possimus magni, aut, repellendus libero cum temporibus soluta accusantium illum debitis at!  </p>
+        </div>
+        <div>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eveniet nobis alias voluptatibus temporibus magnam, vel repellendus reiciendis ducimus facilis voluptas doloribus sit assumenda, odio ullam omnis tempora molestias ipsam?</p>
+        </div>
+    
+    </section>
 
 
 </body>
 </html>
+
+
         <!--<div class="nav">
             <div class="icon">
                 <a class="logo">MDIP<span>WEB</span></h1> 

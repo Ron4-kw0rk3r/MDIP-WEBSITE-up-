@@ -1,3 +1,6 @@
 flask
-gunicorn
-wsgi
+flask-pymongo
+python-dotenv
+dnspython
+pythondns
+requestes

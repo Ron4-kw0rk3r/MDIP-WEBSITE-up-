@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
 *{
 
     margin: 0 ;
@@ -13,6 +15,7 @@
 
 body{
     /*background: #202024;*/
+    background: rgb(32,32,36);
     margin: 0px;
     padding: 0px;
     font-family: "Atkinson Hyperlegible", Helvetica, sans-serif;
@@ -28,7 +31,6 @@ ul{
 }
 
 a{
-
 
     text-decoration: none;
 }
@@ -46,7 +48,7 @@ a{
     top: 0px;
     width: 100%;
     z-index: 100;
-    background-color: #2e4853;
+    background-color: #131323;
     border: 1px solid rgba(0, 0, 0, 0.3);
 
 
@@ -63,19 +65,19 @@ a{
 
     margin: 5px;
     padding: 5px 20px;
-    color: #ffffff;
+    color: #202024;
     font-weight: 500;
     
     transition: all ease 0.6s;
 
 }
 
-.menu .on {
+/* .menu .on {
 
 
     color: rgba(255, 204, 0);
 
-}
+} */ 
 
 .menu li a{
 
@@ -88,10 +90,11 @@ a{
     
 }
 
+
+
+
 .menu li a:hover{
 
-
-    color: #fcd600;
     transition: all ease 0.3s;
 }
 .logoo{
@@ -110,11 +113,36 @@ a{
     display:flex
 }
 
-span{
 
-    color: #f1f1f1;
+.reference  {
+
+    text-decoration: none;
+    
+    color: #fff;
 }
 
+
+.web1 {
+
+    color: #fff;
+}
+
+span{
+
+    color: #00ff8c;
+}
+
+
+.othertrace {
+
+    padding-top: 15vh;
+    color: #fff;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 23px;
+    
+
+
+}
 .elements-right{
 
     display: flex;
@@ -130,12 +158,16 @@ span{
     margin: 0px 10px;
 
 }
-.elements-right a:hover {
+.elements-right a:hover i{
     color: #cf2728;
     transition: all ease 0.2s;
 
 }
+.content {
+    font-family: "Helvetica", sans-serif ;
+    color: #f1f1f1;
 
+}
 
 /* .main{ */
 /*    width: 100%; */ 
@@ -144,6 +176,8 @@ span{
 /*    background-position: center ; */ 
 /*    background-size: cover; */ 
 /*    height: 108vh; */ 
+
+
 
 #maint{
 
@@ -154,5 +188,6 @@ span{
     align-items: center;
     margin-top: 30px;
 }
-maint-contend
 
+
+ /* maint-contend */ 

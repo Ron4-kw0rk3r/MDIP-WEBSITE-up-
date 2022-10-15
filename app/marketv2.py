@@ -1,12 +1,10 @@
 # scr code in flask web site market digital inovation profesionality
 
-
-from crypt import methods
 from flask import Flask , request , render_template
 from flask import url_for , redirect
 import time
 from flask_pymongo import PyMongo
-import pymongo
+
 
 
 
@@ -35,4 +33,4 @@ def about():
 
 if __name__ == "__main__":
     
-    app.run(debug=True , port=5058)
+    app.run(debug=True, port=5050)
